@@ -23,7 +23,7 @@
     <string name="typeInput">種類(任意)</string>
     <string name="addButton">受け取った</string>
     <string name="minusButton">使った</string>
-    <string name="savingGoalThisMonth">今月稼ぎたい金額</string>
+    <string name="savingGoalThisMonth">今月貯金したい金額</string>
     <string name="dailySpending">目標金額を達成するために、1日に使える金額</string>
     <string name="salaryDateExp">お給料日は毎月の</string>
     <string name="remainingDays">お給料日までは後:</string>
