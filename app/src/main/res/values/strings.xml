@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name" translatable="false">SavingUp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="greeting">Welcome</string>
+    <string name="login">Login</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="forgot">Forgot your password?</string>
+    <string name="notSignedup">Don\'t have an account yet? Sign up</string>
+    <string name="writeEmail">Please write your email</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="createAccount">Create your account</string>
+    <string name="enterPasswordAgain">Enter your password again</string>
+    <string name="balance">Current balance</string>
+    <string name="updateBalance">Update Balance</string>
+    <string name="signup">Sign up</string>
+    <string name="profileMaker">Profile Maker</string>
+    <string name="salaryInMonth">Salary in a month</string>
+    <string name="savingGoal">How much do you plan to save? (you can edit it later)</string>
+    <string name="salaryDate">What day does your salary come? (Day 1-31)</string>
+    <string name="start">Start</string>
+    <string name="amountInput">Here you can add the amount you got or spent</string>
+    <string name="nameInput">Name (optional)</string>
+    <string name="typeInput">Type (optional)</string>
+    <string name="addButton">Got</string>
+    <string name="minusButton">Spent</string>
+    <string name="savingGoalThisMonth">Saving goal this month</string>
+    <string name="dailySpending">How much you can spend daily to reach your goal amount</string>
+    <string name="salaryDateExp">Your salary comes in every month on the:</string>
+    <string name="remainingDays">Remaining days left until next salary</string>
+    <string name="history">History</string>
+    <string name="list">List</string>
+    <string name="profile">Profile</string>
+    <string name="monthlySalary">Monthly salary</string>
+    <string name="salaryInput">You can edit your monthly salary here</string>
+    <string name="setDate">Set Date (Day 1-31)</string>
+    <string name="savingGoalSetting">Saving Goal</string>
+    <string name="savingGoalSettingExp">You can edit your saving goal here</string>
+    <string name="notifyMe">Notify before next salary day</string>
+    <string name="saveButton">Save all changes</string>
+    <string name="resetButton">Reset all settings</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="day">day</string>
+    <string name="th">th</string>
+    <string name="language">Language:</string>
+    <string name="save">Save</string>
+    <string name="logout">Logout</string>
+
+
+
+
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="greeting">Üdvözöljük</string>
+    <string name="login">Belépés</string>
+    <string name="email">Email cím</string>
+    <string name="password">Jelszó</string>
+    <string name="forgot">Elfelejtetted a jelszavad?</string>
+    <string name="notSignedup">Még nincs fiókod? Regisztrálj itt</string>
+    <string name="writeEmail">Kérjük adja meg az email címét</string>
+    <string name="resetPassword">Jelszó újraküldése</string>
+    <string name="createAccount">Regisztrálj egy fiókot</string>
+    <string name="enterPasswordAgain">Kérjük adja meg újra a jelszót</string>
+    <string name="balance">Egyenleg</string>
+    <string name="updateBalance">Egyenleg frissítése</string>
+    <string name="signup">Regisztrálj</string>
+    <string name="profileMaker">Profil készítés</string>
+    <string name="salaryInMonth">Fizetés egy hónapban</string>
+    <string name="savingGoal">Mennyit tervezel spórolni? (késöbb szerkeszthető)</string>
+    <string name="salaryDate">Milyen nap érkezik a fizetésed (Nap 1-31)</string>
+    <string name="start">Kezdés</string>
+    <string name="amountInput">Itt megadhatod mennyit költöttél vagy kaptál</string>
+    <string name="nameInput">Név (opcionális)</string>
+    <string name="typeInput">Fajta (opcionális)</string>
+    <string name="addButton">Kaptam</string>
+    <string name="minusButton">Költöttem</string>
+    <string name="savingGoalThisMonth">Spórolni kívánt összeg ebben a hónapban</string>
+    <string name="dailySpending">Napi költhető összeg a cél eléréséhez</string>
+    <string name="salaryDateExp">A fizetésed minden hónapban érkezik</string>
+    <string name="remainingDays">A következő fizetésig hátralevő napok:</string>
+    <string name="history">Történetek</string>
+    <string name="list">Lista</string>
+    <string name="profile">Profil</string>
+    <string name="monthlySalary">Havi fizetés</string>
+    <string name="salaryInput">Itt szerkesztheted a havi fizetésed összegét</string>
+    <string name="setDate">Fizetési nap (Nap 1-31)</string>
+    <string name="savingGoalSetting">Spórolási cél</string>
+    <string name="savingGoalSettingExp">Itt szerkesztheted a cél összegét</string>
+    <string name="notifyMe">Értesítés küldése fizetés előtt</string>
+    <string name="saveButton">Összes mentése</string>
+    <string name="resetButton">Minden visszaállítás</string>
+    <string name="home">Otthon</string>
+    <string name="settings">Beállítások</string>
+    <string name="day">Nap</string>
+    <string name="language">Nyelv:</string>
+    <string name="save">Mentés</string>
+    <string name="logout">Kilépés</string>
+</resources>

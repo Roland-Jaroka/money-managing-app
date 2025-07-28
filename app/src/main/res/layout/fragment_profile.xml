@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_dashboard">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile"
+                android:textStyle="bold"
+                android:textSize="50sp"
+                android:textColor="@android:color/white"
+                android:padding="10dp">
+
+            </TextView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/monthlySalary"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#3EC6FF"
+                        android:padding="12dp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/salaryInput"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        app:boxBackgroundColor="#F0F4F9"
+                        android:layout_gravity="center"
+                        app:boxCornerRadiusBottomStart="12dp"
+                        app:boxCornerRadiusTopEnd="12dp"
+                        app:boxCornerRadiusBottomEnd="12dp"
+                        app:boxCornerRadiusTopStart="12dp"
+                        android:padding="5dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/monthlySalaryInput"
+                            android:inputType="number">
+
+                        </com.google.android.material.textfield.TextInputEditText>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/setDate"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        app:boxBackgroundColor="#F0F4F9"
+                        android:layout_gravity="center"
+                        app:boxCornerRadiusBottomStart="12dp"
+                        app:boxCornerRadiusTopEnd="12dp"
+                        app:boxCornerRadiusBottomEnd="12dp"
+                        app:boxCornerRadiusTopStart="12dp"
+                        android:padding="5dp"
+                        android:layout_marginBottom="10dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/setDateInput"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:maxLength="2">
+
+                        </com.google.android.material.textfield.TextInputEditText>
+
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/savingGoalSetting"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#3EC6FF"
+                        android:padding="12dp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/savingGoalSettingExp"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        app:boxBackgroundColor="#F0F4F9"
+                        android:layout_gravity="center"
+                        app:boxCornerRadiusBottomStart="12dp"
+                        app:boxCornerRadiusTopEnd="12dp"
+                        app:boxCornerRadiusBottomEnd="12dp"
+                        app:boxCornerRadiusTopStart="12dp"
+                        android:padding="5dp"
+                        android:layout_marginBottom="10dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/savingGoalsInput"
+                            android:inputType="number">
+
+                        </com.google.android.material.textfield.TextInputEditText>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif"
+                        android:padding="10dp"
+                        android:text="@string/notifyMe"
+                        android:textColor="#3EC6FF"
+                        android:textSize="20sp"
+                        android:textStyle="bold">
+
+
+                    </TextView>
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/notifyMeButton"
+                        android:layout_marginEnd="20dp" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/saveAllButton"
+                android:background="@drawable/button"
+                android:text="@string/saveButton"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp">
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/resetAllButton"
+                android:background="@drawable/button"
+                android:text="@string/resetButton"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="100dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
